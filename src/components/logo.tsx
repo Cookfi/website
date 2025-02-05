@@ -11,7 +11,7 @@ export function Logo({ className }: LogoProps) {
     <Link href="/" className={cn("flex items-center gap-3", className)}>
       <Image alt="Image" src="/images/cookai-robot.png" width={50} height={500} />
       <div className="text-2xl font-bold">
-        <span className="font-heading text-xl text-2xl font-extrabold">CookFi</span>
+        <span className="font-heading text-2xl font-extrabold">CookFi</span>
       </div>
     </Link>
   );

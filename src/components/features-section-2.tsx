@@ -23,7 +23,7 @@ export function FeaturesSection2() {
               Gain valuable insights to make informed decisions and optimize your strategy for
               continued success.
             </p>
-            <div className="flex grid-cols-2 grid gap-4">
+            <div className="grid-cols-2 grid gap-4">
               <StatItem label="Increase in Impressions" value="18%" />
               <StatItem label="Followers count growth" value="2.5X" />
             </div>

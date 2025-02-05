@@ -10,7 +10,7 @@ export function StatItem({ value, label, className }: StatItemProps) {
   return (
     <div
       className={cn(
-        "flex flex-col items-center gap-2 p-8 rounded-3xl p-6 bg-secondary/10",
+        "flex flex-col items-center gap-2 rounded-3xl p-6 bg-secondary/10",
         className,
       )}
     >

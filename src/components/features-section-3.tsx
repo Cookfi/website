@@ -1,11 +1,11 @@
-import { TextQuote, LineChart } from "lucide-react";
+import { LineChart, TextQuote } from "lucide-react";
 import Image from "next/image";
 
 import { FeatureItem } from "@/components/feature-item";
 
 export function FeaturesSection3() {
   return (
-    <section className="container flex flex-col py-24 md:flex-row md:items-center gap-8 gap-20 max-w-6xl">
+    <section className="container flex flex-col py-24 md:flex-row md:items-center gap-20 max-w-6xl">
       <div className="flex flex-1 flex-col items-start gap-10">
         <div className="flex flex-col gap-3">
           <span className="font-bold text-primary text-left italic font-heading">
