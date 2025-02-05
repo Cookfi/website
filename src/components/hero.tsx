@@ -24,7 +24,7 @@ export function Hero() {
           className="text-center font-heading text-4xl sm:text-5xl tracking-tight lg:text-6xl text-balance font-bold"
         >
           the trading agent with&nbsp;
-          <span className="text-primary bg-clip-text text-transparent bg-gradient-to-br to-primary from-secondary">
+          <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
             real intelligence
           </span>
         </motion.h1>

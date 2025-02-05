@@ -1,5 +1,5 @@
-import Link from "next/link";
 import Image from "next/image";
+import Link from "next/link";
 
 import { Button } from "@/components/ui/button";
 
@@ -17,7 +17,7 @@ export function CtaSection() {
           size="lg"
           asChild
           variant="outline"
-          className="cursor-pointer border-border bg-background hover:bg-bacground/90"
+          className="cursor-pointer border-border bg-background hover:bg-background/90"
         >
           <Link href="#">View</Link>
         </Button>
@@ -27,7 +27,7 @@ export function CtaSection() {
           width={900}
           height={698}
           priority
-          className="-mt-14 mt-0 lg:-mb-40"
+          className="mt-0"
         />
       </div>
     </section>

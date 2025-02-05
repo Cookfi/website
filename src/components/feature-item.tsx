@@ -1,5 +1,5 @@
-import { LucideProps } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { LucideProps } from "lucide-react";
 
 interface FeatureItemProps {
   title: string;
@@ -13,7 +13,7 @@ interface FeatureItemProps {
 export function FeatureItem({ title, description, icon: Icon, className }: FeatureItemProps) {
   return (
     <div className={cn("flex items-center gap-4", className)}>
-      <div className="shrink-0 size-16 flex items-center justify-center rounded-[1rem] bg-secondary/10 text-secondary">
+      <div className="shrink-0 size-16 flex items-center justify-center rounded-2xl bg-gradient-to-b from-primary/25 to-primary/0 text-secondary">
         <Icon size={29} />
       </div>
       <div className="flex flex-col gap-2">
