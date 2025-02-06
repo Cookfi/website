@@ -41,7 +41,7 @@ export function Hero() {
           transition={{ delay: 0.4, duration: 0.4 }}
           className="flex"
         >
-          <CtaButton href="#" text="Get Started" />
+          <CtaButton href="https://github.com/Cookfi" text="View on Github" />
         </motion.div>
         <motion.div
           animate={{ y: 0.4, opacity: 1 }}

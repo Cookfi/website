@@ -5,7 +5,7 @@ import { StatItem } from "@/components/stat-item";
 export function FeaturesSection4() {
   return (
     <section className="container gap-20 space-y-24">
-      <div className="rounded-t-[2.5rem] bg-gradient-to-b from-primary/25 to-primary/0 pb-20">
+      <div className="rounded-t-[2.5rem] bg-gradient-to-b from-primary/25 to-primary/0">
         <div className="grid grid-cols-2 gap-8">
           <div className="relative order-1 flex-1 overflow-hidden rounded-t-[2.5rem] rounded-br-[5rem] bg-gradient-to-br from-secondary to-primary pt-10 md:order-none">
             <Image alt="SaaS Dashboard" src="/images/cookies.webp" width={500} height={0} />
@@ -16,7 +16,7 @@ export function FeaturesSection4() {
                 Leveraging Cookie3&apos;s Data Swarm
               </span>
               <h2 className="text-balance text-left font-heading text-3xl font-bold tracking-tight sm:text-4xl">
-                powered by cookies (Cookie3, to be specific)
+                fuled by cookies (Cookie3, to be specific)
               </h2>
             </div>
             <p className="max-w-lg text-balance text-left text-lg text-muted-foreground">
