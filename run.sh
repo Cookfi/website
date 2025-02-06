@@ -9,7 +9,8 @@ echo "Building for production..."
 npm run build
 
 # Start the production server in the background on port 3003
-PORT=3003 npm run start > run.log 2>&1 &
+# Adding HOST=0.0.0.0 to ensure the app listens on all network interfaces
+HOST=0.0.0.0 PORT=3003 npm run start > run.log 2>&1 &
 
 # Extract the process ID (PID)
 PID=$!
@@ -17,4 +18,4 @@ PID=$!
 echo $PID > script.pid
 
 # Output the PID for reference
-echo "Script started with PID: $PID" 
+echo "Script started with PID: $PID"
