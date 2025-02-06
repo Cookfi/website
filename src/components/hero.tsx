@@ -7,13 +7,13 @@ import { CtaButton } from "@/components/cta-button";
 
 export function Hero() {
   return (
-    <section className="pb-28 pt-20 bg-gradient-to-b from-background via-70% via-secondary/20">
+    <section className="bg-gradient-to-b from-background via-secondary/20 via-70% pb-28 pt-20">
       <div className="container flex flex-col items-center gap-8 sm:gap-10">
         <motion.div
           animate={{ y: 0, opacity: 1 }}
           initial={{ y: 5, opacity: 0 }}
           transition={{ delay: 0.8, duration: 0.4 }}
-          className="flex cursor-pointer items-center gap-1 rounded-full px-4 font-medium py-1 bg-secondary/10 text-secondary hover:bg-secondary/20"
+          className="flex cursor-pointer items-center gap-1 rounded-full bg-secondary/10 px-4 py-1 font-medium text-secondary hover:bg-secondary/20"
         >
           <span className="text-sm">Introducing Cookfi AI</span>
         </motion.div>
@@ -21,12 +21,10 @@ export function Hero() {
           animate={{ y: 0, opacity: 1 }}
           initial={{ y: 10, opacity: 0 }}
           transition={{ delay: 0, duration: 0.4 }}
-          className="text-center font-heading text-4xl sm:text-5xl tracking-tight lg:text-6xl text-balance font-bold"
+          className="text-balance text-center font-heading text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl"
         >
           the trading agent with&nbsp;
-          <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-            real intelligence
-          </span>
+          <span className=" from-primary  bg-clip-text text-primary">real intelligence</span>
         </motion.h1>
         <motion.p
           animate={{ y: 0, opacity: 1 }}
@@ -34,8 +32,8 @@ export function Hero() {
           transition={{ delay: 0.2, duration: 0.4 }}
           className="max-w-lg text-center text-lg text-muted-foreground sm:text-xl"
         >
-          CookFi AI is the first trading agent to&nbsp; leverage Cookie3&apos;s real-time data feeds
-          to make intelligent trades and win big profits
+          CookFi AI is the first trading agent to leverage Cookie3&apos;s real-time data feeds to
+          make intelligent trades and win big profits
         </motion.p>
         <motion.div
           animate={{ y: 0.4, opacity: 1 }}
