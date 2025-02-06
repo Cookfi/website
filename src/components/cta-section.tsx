@@ -6,12 +6,12 @@ import { Button } from "@/components/ui/button";
 export function CtaSection() {
   return (
     <section className="container">
-      <div className="flex flex-col items-center gap-6 px-6 relative flex-1 rounded-tl-[2.5rem] rounded-bl-[5rem] rounded-tr-[2.5rem] bg-gradient-to-br to-primary overflow-hidden pt-24 from-secondary">
-        <h2 className="font-heading text-3xl tracking-tight sm:text-4xl text-balance text-primary-foreground text-left font-bold md:text-5xl">
+      <div className="relative flex flex-1 flex-col items-center gap-6 overflow-hidden rounded-t-[2.5rem] rounded-bl-[5rem] bg-gradient-to-br from-secondary to-primary px-6 pt-24">
+        <h2 className="text-balance text-left font-heading text-3xl font-bold tracking-tight text-primary-foreground sm:text-4xl md:text-5xl">
           check out our demo!
         </h2>
-        <p className="max-w-xl text-lg text-primary-foreground/80 text-center">
-          Watch our video where we show the full power of CookFi AI!
+        <p className="max-w-xl text-center text-lg text-primary-foreground/80">
+          Watch our overview where we show the full power of CookFi AI!
         </p>
         <Button
           size="lg"
