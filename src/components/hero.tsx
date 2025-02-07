@@ -2,6 +2,8 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 import { CtaButton } from "@/components/cta-button";
 
@@ -41,7 +43,11 @@ export function Hero() {
           transition={{ delay: 0.4, duration: 0.4 }}
           className="flex"
         >
-          <CtaButton href="https://github.com/Cookfi" text="View on Github" />
+          <Button asChild>
+            <Link href="https://app.cookfi.tech/" target="_blank" className="cursor-pointer">
+              View Trades
+            </Link>
+          </Button>
         </motion.div>
         <motion.div
           animate={{ y: 0.4, opacity: 1 }}
