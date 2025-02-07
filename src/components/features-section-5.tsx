@@ -1,7 +1,5 @@
-import { LineChart, TextQuote } from "lucide-react";
 import Image from "next/image";
 
-import { FeatureItem } from "@/components/feature-item";
 
 export function FeaturesSection5() {
   return (
@@ -20,7 +18,7 @@ export function FeaturesSection5() {
           of our data streams were built as Eliza Plugins.
         </p>
         <p className="max-w-lg text-balance text-left text-lg font-bold text-primary">
-          Opensource Alert: We&apos;re publishing the ElizaOS Cookie3 plugin for the community to
+          Opensource Alert: We&apos;re publishing the ElizaOS Cookie.fun plugin for the community to
           use!
         </p>
       </div>

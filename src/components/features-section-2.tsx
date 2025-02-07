@@ -20,8 +20,8 @@ export function FeaturesSection2() {
               </h2>
             </div>
             <p className="max-w-lg text-balance text-left text-lg text-muted-foreground">
-              CookFi takes his market analysis and uses it to place trades directly and
-              autonamously.
+              CookFi takes his market analysis and uses it to place trades directly and autonamously
+              thanks to solana agent kit.
             </p>
             <div className="grid grid-cols-2 gap-4">
               <StatItem label="Autonamous" value="100%" />

@@ -4,10 +4,10 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 
 import { Logo } from "@/components/logo";
+import { MobileNavItem } from "@/components/mobile-nav-item";
+import { MobileNavbar } from "@/components/mobile-navbar";
 import { NavItem } from "@/components/nav-item";
 import { Button } from "@/components/ui/button";
-import { MobileNavbar } from "@/components/mobile-navbar";
-import { MobileNavItem } from "@/components/mobile-nav-item";
 
 export function Header() {
   return (
@@ -24,7 +24,7 @@ export function Header() {
             href="https://solscan.io/account/7wdHGhLJvh4PKhgbDjaJembQFD8NBujFG494nA1hZ8bW"
             label="View Agent Trades"
           />
-          <NavItem href="https://x.com/Cookfi_agent" label="CookFi Agent X Profile" />
+          {/* <NavItem href="https://x.com/Cookfi_agent" label="CookFi Agent X Profile" /> */}
           <NavItem href="https://x.com/cookfiai" label="CookFi X Profile" />
           <NavItem href="https://app.cookfi.tech/" label="Chat with Agent" />
         </nav>

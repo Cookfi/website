@@ -1,11 +1,9 @@
 "use client";
 
+import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { Button } from "@/components/ui/button";
 import Link from "next/link";
-
-import { CtaButton } from "@/components/cta-button";
 
 export function Hero() {
   return (
@@ -15,7 +13,7 @@ export function Hero() {
           animate={{ y: 0, opacity: 1 }}
           initial={{ y: 5, opacity: 0 }}
           transition={{ delay: 0.8, duration: 0.4 }}
-          className="flex cursor-pointer items-center gap-1 rounded-full bg-secondary/10 px-4 py-1 font-medium text-secondary hover:bg-secondary/20"
+          className="flex cursor-pointer items-center gap-1 rounded-full bg-secondary/40 px-4 py-1 font-medium text-white hover:bg-secondary/50"
         >
           <span className="text-sm">Introducing Cookfi AI</span>
         </motion.div>
@@ -25,8 +23,8 @@ export function Hero() {
           transition={{ delay: 0, duration: 0.4 }}
           className="text-balance text-center font-heading text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl"
         >
-          the trading agent with&nbsp;
-          <span className=" from-primary  bg-clip-text text-primary">real intelligence</span>
+          <span className=" from-primary  bg-clip-text text-primary">Autonomous</span> trading agent
+          on Solana
         </motion.h1>
         <motion.p
           animate={{ y: 0, opacity: 1 }}
@@ -34,8 +32,8 @@ export function Hero() {
           transition={{ delay: 0.2, duration: 0.4 }}
           className="max-w-lg text-center text-lg text-muted-foreground sm:text-xl"
         >
-          CookFi AI is the first trading agent to leverage Cookie3&apos;s real-time data feeds to
-          make intelligent trades and win big profits
+          The first trading agent to leverage social data from Cookie.fun api and market data in
+          real-time
         </motion.p>
         <motion.div
           animate={{ y: 0.4, opacity: 1 }}
@@ -49,7 +47,7 @@ export function Hero() {
               target="_blank"
               className="mx-5 cursor-pointer"
             >
-              View Trades
+              Live Trades
             </Link>
           </Button>
           <Button asChild>
