@@ -24,7 +24,7 @@ export function Header() {
             href="https://solscan.io/account/7wdHGhLJvh4PKhgbDjaJembQFD8NBujFG494nA1hZ8bW"
             label="View Agent Trades"
           />
-          {/* <NavItem href="https://x.com/Cookfi_agent" label="CookFi Agent X Profile" /> */}
+          <NavItem href="https://x.com/Cookfi_ai_agent" label="CookFi Agent X Profile" />
           <NavItem href="https://x.com/cookfiai" label="CookFi X Profile" />
           <NavItem href="https://app.cookfi.tech/" label="Chat with Agent" />
         </nav>
