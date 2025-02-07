@@ -20,7 +20,13 @@ export function Header() {
       <Logo />
       <div className="flex items-center gap-10">
         <nav className="hidden items-center justify-end gap-10 md:flex">
-          <NavItem href="https://x.com/cookfiai" label="Follow on X" />
+          <NavItem
+            href="https://solscan.io/account/7wdHGhLJvh4PKhgbDjaJembQFD8NBujFG494nA1hZ8bW"
+            label="View Agent Trades"
+          />
+          <NavItem href="https://x.com/Cookfi_agent" label="CookFi Agent X Profile" />
+          <NavItem href="https://x.com/cookfiai" label="CookFi X Profile" />
+          <NavItem href="https://app.cookfi.tech/" label="Chat with Agent" />
         </nav>
         <div className="hidden items-center gap-2 md:flex">
           <Button asChild>

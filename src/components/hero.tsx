@@ -41,11 +41,25 @@ export function Hero() {
           animate={{ y: 0.4, opacity: 1 }}
           initial={{ y: 10, opacity: 0 }}
           transition={{ delay: 0.4, duration: 0.4 }}
-          className="flex"
+          className="flex columns-3"
         >
           <Button asChild>
-            <Link href="https://app.cookfi.tech/" target="_blank" className="cursor-pointer">
+            <Link
+              href="https://solscan.io/account/7wdHGhLJvh4PKhgbDjaJembQFD8NBujFG494nA1hZ8bW"
+              target="_blank"
+              className="mx-5 cursor-pointer"
+            >
               View Trades
+            </Link>
+          </Button>
+          <Button asChild>
+            <Link href="https://app.cookfi.tech/" className="mx-5 cursor-pointer">
+              Chat with Agent
+            </Link>
+          </Button>
+          <Button asChild>
+            <Link href="https://x.com/Cookfi_agent" target="_blank" className="mx-5 cursor-pointer">
+              View Agent X Profile
             </Link>
           </Button>
         </motion.div>
