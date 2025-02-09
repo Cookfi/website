@@ -24,7 +24,7 @@ export function Hero() {
           className="text-balance text-center font-heading text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl"
         >
           <span className=" from-primary  bg-clip-text text-primary">Autonomous</span> trading agent
-          on Solana
+          on Base & Solana
         </motion.h1>
         <motion.p
           animate={{ y: 0, opacity: 1 }}
@@ -39,25 +39,38 @@ export function Hero() {
           animate={{ y: 0.4, opacity: 1 }}
           initial={{ y: 10, opacity: 0 }}
           transition={{ delay: 0.4, duration: 0.4 }}
-          className="flex columns-3"
+          className="flex columns-3 flex-col sm:flex-row"
         >
           <Button asChild>
             <Link
               href="https://solscan.io/account/7wdHGhLJvh4PKhgbDjaJembQFD8NBujFG494nA1hZ8bW"
               target="_blank"
-              className="mx-5 cursor-pointer"
+              className="mx-5 mb-5 cursor-pointer"
             >
               Live Trades
             </Link>
           </Button>
           <Button asChild>
-            <Link href="https://app.cookfi.tech/" className="mx-5 cursor-pointer">
+            <Link href="https://app.cookfi.tech/" className="mx-5 mb-5  cursor-pointer">
               Chat with Agent
             </Link>
           </Button>
           <Button asChild>
-            <Link href="https://x.com/Cookfi_agent" target="_blank" className="mx-5 cursor-pointer">
-              View Agent X Profile
+            <Link
+              href="https://x.com/Cookfi_ai_agent"
+              target="_blank"
+              className="mx-5 mb-5 cursor-pointer"
+            >
+              Agent X Profile
+            </Link>
+          </Button>
+          <Button asChild>
+            <Link
+              href="https://x.com/Cookfiai"
+              target="_blank"
+              className="mx-5 mb-5 cursor-pointer"
+            >
+              Project X Profile
             </Link>
           </Button>
         </motion.div>

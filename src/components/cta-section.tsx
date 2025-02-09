@@ -14,8 +14,8 @@ export function CtaSection() {
           Watch our agents trades in real-time, or ask him about his recent wins using our chat
           interface!
         </p>
-        <div className="flex columns-3">
-          <Button asChild>
+        <div className="flex flex-col md:columns-3 md:flex-row">
+          <Button asChild className="mb-5 md:mb-0">
             <Link
               href="https://solscan.io/account/7wdHGhLJvh4PKhgbDjaJembQFD8NBujFG494nA1hZ8bW"
               target="_blank"
@@ -24,12 +24,12 @@ export function CtaSection() {
               View Trades
             </Link>
           </Button>
-          <Button asChild>
+          <Button asChild className="mb-5 md:mb-0">
             <Link href="https://app.cookfi.tech/" className="mx-5 cursor-pointer">
               Chat with Agent
             </Link>
           </Button>
-          <Button asChild>
+          <Button asChild className="mb-5 md:mb-0">
             <Link href="https://x.com/Cookfi_agent" target="_blank" className="mx-5 cursor-pointer">
               View Agent X Profile
             </Link>

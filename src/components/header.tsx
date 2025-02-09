@@ -4,10 +4,10 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 
 import { Logo } from "@/components/logo";
-import { MobileNavItem } from "@/components/mobile-nav-item";
-import { MobileNavbar } from "@/components/mobile-navbar";
 import { NavItem } from "@/components/nav-item";
 import { Button } from "@/components/ui/button";
+import { MobileNavbar } from "@/components/mobile-navbar";
+import { MobileNavItem } from "@/components/mobile-nav-item";
 
 export function Header() {
   return (
@@ -24,7 +24,7 @@ export function Header() {
             href="https://solscan.io/account/7wdHGhLJvh4PKhgbDjaJembQFD8NBujFG494nA1hZ8bW"
             label="View Agent Trades"
           />
-          <NavItem href="https://x.com/Cookfi_ai_agent" label="CookFi Agent X Profile" />
+          <NavItem href="https://x.com/Cookfi_agent" label="CookFi Agent X Profile" />
           <NavItem href="https://x.com/cookfiai" label="CookFi X Profile" />
           <NavItem href="https://app.cookfi.tech/" label="Chat with Agent" />
         </nav>
@@ -39,13 +39,16 @@ export function Header() {
       <MobileNavbar>
         <div className="container rounded-b-lg bg-background py-4 text-foreground shadow-xl">
           <nav className="flex flex-col gap-1 pt-2">
-            <MobileNavItem href="/about" label="About" />
-            <MobileNavItem href="/docs" label="Docs" />
-            <MobileNavItem href="/blog" label="Blog" />
-            <MobileNavItem href="/pricing" label="Pricing" />
-            <Button size="lg" asChild className="mt-2 w-full">
-              <Link href="#" className="cursor-pointer">
-                Watch The Demo
+            <MobileNavItem
+              href="https://solscan.io/account/7wdHGhLJvh4PKhgbDjaJembQFD8NBujFG494nA1hZ8bW"
+              label="View Agent Trades"
+            />
+            <MobileNavItem href="https://x.com/Cookfi_agent" label="CookFi Agent X Profile" />
+            <MobileNavItem href="https://x.com/cookfiai" label="CookFi X Profile" />
+            <MobileNavItem href="https://app.cookfi.tech/" label="Chat with Agent" />
+            <Button asChild>
+              <Link href="https://github.com/Cookfi" className="cursor-pointer">
+                View Github
               </Link>
             </Button>
           </nav>
